@@ -10,6 +10,8 @@ plugins-
   vim-bufkill
   vim-terraform
 the_silver_searcher
+
+rvm
 tmux
 tmuxinator
 tmux-themepack/powerline/default/blue.tmuxtheme
