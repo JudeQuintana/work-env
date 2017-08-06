@@ -1,0 +1,2 @@
+" dont highlight space tabs, issue with vim-go
+set nolist

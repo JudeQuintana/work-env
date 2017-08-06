@@ -1,0 +1,15 @@
+zsh
+ohmyzh
+vim
+janus
+plugins-
+  dracula for vim
+  gundo.vim
+  vim-airline
+  vim-airline-themes
+  vim-bufkill
+  vim-terraform
+the_silver_searcher
+tmux
+tmuxinator
+tmux-themepack/powerline/default/blue.tmuxtheme

@@ -1,0 +1,59 @@
+let mapleader = ","
+set clipboard=unnamed
+if executable("ag")
+   set grepprg=ag\ --nogroup\ --nocolor
+   let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
+   let g:ctrlp_use_caching = 0
+endif
+
+" bind K to grep word under cursor
+nnoremap K :grep! "\b<C-R><C-W>\b"<CR>:cw<CR>
+
+" bind \ (backward slash) to grep shortcut
+command -nargs=+ -complete=file -bar Ag silent! grep! <args>|cwindow|redraw!
+
+nnoremap \ :Ag<SPACE>
+
+" Airline theme
+let g:airline_theme='luna'
+"Enable buffer tabs
+let g:airline#extensions#tabline#enabled = 1
+
+" move among buffers with CTRL
+map <C-H> :bprev<CR>
+map <C-L> :bnext<CR>
+
+" dracula theme
+let g:colors_name = "dracula"
+
+let g:go_highlight_structs = 1
+let g:go_highlight_methods = 1
+let g:go_highlight_functions = 1
+let g:go_highlight_operators = 1
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_fields = 1
+let g:go_highlight_types = 1
+"let g:go_highlight_array_whitespace_error = 1
+"let g:go_highlight_space_tab_error = 1
+let g:go_highlight_build_constraints = 1
+let g:go_highlight_generate_tags = 1
+"let g:go_highlight_chan_whitespace_error = 1
+"let g:go_highlight_extra_types = 1
+"let g:go_highlight_space_tab_error = 1
+"let g:go_highlight_trailing_whitespace_error = 1
+"let g:go_highlight_string_spellcheck = 1
+"let g:go_highlight_format_strings = 1
+
+"call janus#disable_plugin('ctrlp')
+"
+"
+"UNDO TREE
+nnoremap <F5> :GundoToggle<CR>
+
+"vert split for  quick fix window
+autocmd! FileType qf nnoremap <buffer> <leader><Enter> <C-w><Enter><C-w>L
+
+"go to cur dir in nerdtree for open file
+"autocmd BufEnter * lcd %:p:h
+map <leader>r :NERDTreeFind<cr>
+
