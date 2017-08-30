@@ -9,7 +9,7 @@ plugins-
   vim-airline-themes
   vim-bufkill
   vim-terraform
-the_silver_searcher
+the_silver_searcher via brew
 
 rvm
 tmux
