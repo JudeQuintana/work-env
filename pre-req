@@ -10,6 +10,8 @@ plugins-
   vim-bufkill
   vim-terraform
 the_silver_searcher via brew
+reattach-to-user-namespace via brew
+
 
 rvm
 tmux
