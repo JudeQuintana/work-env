@@ -9,6 +9,7 @@ plugins-
   vim-airline-themes
   vim-bufkill
   vim-terraform
+  qfenter
 the_silver_searcher via brew
 reattach-to-user-namespace via brew
 

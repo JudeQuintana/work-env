@@ -51,7 +51,11 @@ let g:go_highlight_generate_tags = 1
 nnoremap <F5> :GundoToggle<CR>
 
 "vert split for  quick fix window
-autocmd! FileType qf nnoremap <buffer> <leader><Enter> <C-w><Enter><C-w>L
+"autocmd! FileType qf nnoremap <buffer> <leader><Enter> <C-w><Enter><C-w>L
+let g:qfenter_keymap = {}
+let g:qfenter_keymap.vopen = ['<C-v>']
+let g:qfenter_keymap.hopen = ['<C-CR>', '<C-s>', '<C-x>']
+let g:qfenter_keymap.topen = ['<C-t>']
 
 "go to cur dir in nerdtree for open file
 "autocmd BufEnter * lcd %:p:h
