@@ -1,5 +1,14 @@
 let mapleader = ","
 set clipboard=unnamed
+
+if exists(":Tabularize")
+  nmap <Leader>a= :Tabularize /=<CR>
+  vmap <Leader>a= :Tabularize /=<CR>
+  nmap <Leader>a: :Tabularize /:\zs<CR>
+  vmap <Leader>a: :Tabularize /:\zs<CR>
+endif
+
+
 if executable("ag")
    set grepprg=ag\ --nogroup\ --nocolor
    let g:ctrlp_user_command = 'ag %s -l --nocolor -g ""'
@@ -26,6 +35,7 @@ map <C-L> :bnext<CR>
 " dracula theme
 let g:colors_name = "dracula"
 
+"syntax higlighting for vim-go
 let g:go_highlight_structs = 1
 let g:go_highlight_methods = 1
 let g:go_highlight_functions = 1
@@ -51,7 +61,6 @@ let g:go_highlight_generate_tags = 1
 nnoremap <F5> :GundoToggle<CR>
 
 "vert split for  quick fix window
-"autocmd! FileType qf nnoremap <buffer> <leader><Enter> <C-w><Enter><C-w>L
 let g:qfenter_keymap = {}
 let g:qfenter_keymap.vopen = ['<C-v>']
 let g:qfenter_keymap.hopen = ['<C-CR>', '<C-s>', '<C-x>']
@@ -65,3 +74,4 @@ map <leader>r :NERDTreeFind<cr>
 let g:terraform_align=1
 let g:terraform_fold_sections=1
 let g:terraform_remap_spacebar=1
+

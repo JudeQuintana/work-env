@@ -10,6 +10,7 @@ plugins-
   vim-bufkill
   vim-terraform
   qfenter
+  tabular.vim
 the_silver_searcher via brew
 reattach-to-user-namespace via brew
 
