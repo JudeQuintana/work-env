@@ -98,6 +98,10 @@ alias history="fc -il 1"
 alias chirp="rainbowstream -iot"
 alias s="google"
 
+LESSPIPE=`which src-hilite-lesspipe.sh`
+export LESSOPEN="| ${LESSPIPE} %s"
+export LESS='-R'
+
 source ~/.bin/tmuxinator.zsh
 
 #Manipulate and export PATH over here

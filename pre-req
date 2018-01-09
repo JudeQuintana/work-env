@@ -13,6 +13,7 @@ plugins-
   tabular.vim
 the_silver_searcher via brew
 reattach-to-user-namespace via brew
+source-highlight via brew
 
 
 rvm
