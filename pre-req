@@ -11,6 +11,7 @@ plugins-
   vim-terraform
   qfenter
   tabular.vim
+upgrade ack, ctags, git via brew
 the_silver_searcher via brew
 reattach-to-user-namespace via brew
 source-highlight via brew
