@@ -1,6 +1,6 @@
 zsh
 ohmyzh
-vim
+vim (upgrade to latest via brew > 8.0)
 janus
 plugins-
   dracula for vim
