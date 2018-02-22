@@ -1,3 +1,5 @@
+osx/macos
+
 zsh
 ohmyzh
 vim (upgrade to latest via brew > 8.0)
