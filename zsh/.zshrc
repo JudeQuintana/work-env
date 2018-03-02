@@ -93,7 +93,7 @@ alias m="mux hustle"
 alias todo="vi ~/work/notes/todo"
 alias weather="curl http://wttr.in/\~Denver"
 alias moon="curl http://wttr.in/Moon"
-alias myip="curl http://ifconfig.co | jq '.'"
+alias myip='curl https://ifconfig.co/json | jq "."'
 alias history="fc -il 1"
 alias s="google"
 alias gcst="git -c color.status=always status -v | less -REX"
