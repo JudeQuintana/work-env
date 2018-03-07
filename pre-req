@@ -12,7 +12,8 @@ janus
   vim-bufkill (https://github.com/qpkorr/vim-bufkill)
   vim-terraform (https://github.com/hashivim/vim-terraform)
   qfenter (https://github.com/yssl/QFEnter.git)
-  tabular.vim (https://github.com/godlygeek/tabular.git)
+  tabular (https://github.com/godlygeek/tabular.git)
+  vim-bundler (https://github.com/tpope/vim-bundler)
 upgrade ack, ctags, git via brew
 the_silver_searcher via brew
 reattach-to-user-namespace via brew
