@@ -16,6 +16,7 @@ janus
   vim-bundler (https://github.com/tpope/vim-bundler)
   vim-rails (https://github.com:tpope/vim-rails.git)
   vim-surround (https://github.com:tpope/vim-surround.git
+  vim-db (https://github.com/tpope/vim-dadbod)
 
 upgrade ack, ctags, git via brew
 the_silver_searcher via brew
