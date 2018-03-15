@@ -61,14 +61,15 @@ Tmux:
     - run `./install.sh`
 
 iTerm2:
-  - under prefrences -> profiles -> text
+  - under preferences -> profiles -> text
   - set fonts
     - ascii font - 13pt Monaco
     - non ascii font - 13pt source code pro for powerline
-  - under prefrences -> profiles -> window
+  - under preferences -> profiles -> window
     - background image from
       https://images7.alphacoders.com/321/thumb-1920-321966.jpg
-
+ - under preferences -> profiles -> keys
+   - map hot keys according to `hexcodes1.png` and `hexcodes2.png`
 
 FINAL:
   - Quit iterm
