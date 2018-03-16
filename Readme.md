@@ -50,15 +50,15 @@ Tmux:
     - `mkdir ~/.tmuxinator` and `mv hustle.yml ~/.tmuxinator/`
     - `mkidr ~/.bin` and `mv tmuxinator.zsh ~/.bin/`
 
+  - clone this repo anywhere and install fonts
+    - `git clone https://github.com/powerline/fonts`
+    - run `./install.sh`
+
   - clone this repo anywhere
       - `git clone tmux-themepack (https://github.com/jimeh/tmux-themepack)`
       - `mv .tmux.conf ~/.tmux.conf`
       - may need to edit `.tmux.conf` to have source-file point to
         `tmux-themepack/powerline/default/blue.tmuxtheme`
-
-  - clone this repo anywhere and install fonts
-    - `git clone https://github.com/powerline/fonts`
-    - run `./install.sh`
 
 iTerm2:
   - under preferences -> profiles -> text
