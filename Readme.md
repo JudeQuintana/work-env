@@ -24,18 +24,18 @@ Vim:
     - `curl -L https://bit.ly/janus-bootstrap | bash`
 
     - `mkdir ~/.janus` and `git clone` these plugin repos in it:
-        dracula-theme (https://github.com/dracula/vim)
-        gundo.vim (https://github.com/sjl/gundo.vim)
-        vim-airline (https://github.com/vim-airline/vim-airline)
-        vim-airline-themes (https://github.com/vim-airline/vim-airline-themes)
-        vim-bufkill (https://github.com/qpkorr/vim-bufkill)
-        vim-terraform (https://github.com/hashivim/vim-terraform)
-        qfenter (https://github.com/yssl/QFEnter.git)
-        tabular (https://github.com/godlygeek/tabular.git)
-        vim-bundler (https://github.com/tpope/vim-bundler)
-        vim-rails (https://github.com:tpope/vim-rails.git)
-        vim-surround (https://github.com:tpope/vim-surround.git
-        vim-db (https://github.com/tpope/vim-dadbod)
+       - dracula-theme (https://github.com/dracula/vim)
+       - gundo.vim (https://github.com/sjl/gundo.vim)
+       - vim-airline (https://github.com/vim-airline/vim-airline)
+       - vim-airline-themes (https://github.com/vim-airline/vim-airline-themes)
+       - vim-bufkill (https://github.com/qpkorr/vim-bufkill)
+       - vim-terraform (https://github.com/hashivim/vim-terraform)
+       - qfenter (https://github.com/yssl/QFEnter.git)
+       - tabular (https://github.com/godlygeek/tabular.git)
+       - vim-bundler (https://github.com/tpope/vim-bundler)
+       - vim-rails (https://github.com:tpope/vim-rails.git)
+       - vim-surround (https://github.com:tpope/vim-surround.git
+       - vim-db (https://github.com/tpope/vim-dadbod)
       - `mv .vim.before ~`
       - `mv .vim.after ~`
 
@@ -70,6 +70,7 @@ iTerm2:
       https://images7.alphacoders.com/321/thumb-1920-321966.jpg
  - under preferences -> profiles -> keys
    - map hot keys according to `hexcodes1.png` and `hexcodes2.png`
+   - or load `iterm/profiles.json`
 
 FINAL:
   - Quit iterm
