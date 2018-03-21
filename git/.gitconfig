@@ -1,0 +1,10 @@
+[user]
+  name = Jude Quintana
+  email = jude.quintana@company.com
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore
+[diff]
+  tool = vimdiff
+[difftool]
+  prompt = false
