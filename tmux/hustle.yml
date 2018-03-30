@@ -31,7 +31,7 @@ windows:
   - central_control:
       layout: tiled
       panes:
-        - clear
+        - htop
         -
         -
         - todo
