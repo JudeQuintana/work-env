@@ -36,6 +36,7 @@ Vim:
        - vim-rails (https://github.com:tpope/vim-rails.git)
        - vim-surround (https://github.com:tpope/vim-surround.git
        - vim-db (https://github.com/tpope/vim-dadbod)
+       - vim-tags (https://github.com/szw/vim-tags)
       - `mv .vim.before ~`
       - `mv .vim.after ~`
 
