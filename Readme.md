@@ -78,3 +78,8 @@ FINAL:
   - Quit iterm
   - load iterm
   - enter the command `m` at the terminal and everything SHOULD spin up
+
+
+### Controls
+
+TODO
