@@ -1,4 +1,4 @@
-osx/macos
+MacOS High Sierra
 
 NOTE: any `mv` commands means moving the repsective file from this git
 repo.
@@ -17,7 +17,7 @@ iterm2:
 
 Via Homebrew
   - install/upgrade:
-      - `brew install vim tmux the_silver_searcher reattach-to-user-namespace source-highlight ack ctags git jq`
+      - `brew install vim tmux the_silver_searcher reattach-to-user-namespace source-highlight ack ctags git jq htop`
 
 Vim:
   - Install janus (https://github.com/carlhuda/janus)
