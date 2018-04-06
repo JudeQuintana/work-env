@@ -34,7 +34,7 @@ Vim:
        - tabular (https://github.com/godlygeek/tabular.git)
        - vim-bundler (https://github.com/tpope/vim-bundler)
        - vim-rails (https://github.com:tpope/vim-rails.git)
-       - vim-surround (https://github.com:tpope/vim-surround.git
+       - vim-surround (https://github.com:tpope/vim-surround.git)
        - vim-db (https://github.com/tpope/vim-dadbod)
        - vim-tags (https://github.com/szw/vim-tags)
        - tagbar (https://github.com/majutsushi/tagbar)
