@@ -32,6 +32,7 @@ map <C-L> :bnext<CR>
 
 " dracula theme
 let g:colors_name = "dracula"
+let g:dracula_colorterm = 0
 
 "syntax higlighting for vim-go
 let g:go_highlight_structs = 1
