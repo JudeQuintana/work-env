@@ -127,6 +127,3 @@ export PATH=$PATH:$GOROOT/bin
 
 #HOMEBREW
 export HOMEBREW_GITHUB_API_TOKEN=""
-
-#Thefuck
-eval "$(thefuck --alias)"
