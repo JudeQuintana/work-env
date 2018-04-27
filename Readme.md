@@ -10,7 +10,7 @@ repo.
     - ohmyzsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
       - `mv .zshrc ~`
 
-iterm2:
+iTerm2:
   - Install theme:
      - git clone (https://github.com/dracula/iterm.git)
      - import Dracula.itermcolors
@@ -42,6 +42,10 @@ plugins so `git checkout 0743d3d` is necessary, after initial cloning.
        - tagbar (https://github.com/majutsushi/tagbar)
       - `mv .vim.before ~`
       - `mv .vim.after ~`
+
+OhMyZSH `git-open` Plugin:
+  - `cd ~/.oh-my-zsh/custom/plugins`
+  - `git clone git@github.com:paulirish/git-open.git`
 
 
 rvm (https://rvm.io/)
