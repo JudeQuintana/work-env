@@ -27,10 +27,10 @@ Vim:
        - dracula-theme (https://github.com/dracula/vim)
          NOTE: currently, master breaks some syntax highlighting
 plugins so `git checkout 0743d3d` is necessary, after initial cloning.
-       - gundo.vim (https://github.com/sjl/gundo.vim)
        - vim-airline (https://github.com/vim-airline/vim-airline)
        - vim-airline-themes (https://github.com/vim-airline/vim-airline-themes)
        - vim-bufkill (https://github.com/qpkorr/vim-bufkill)
+       - vim-go (https://github.com/fatih/vim-go)
        - vim-terraform (https://github.com/hashivim/vim-terraform)
        - qfenter (https://github.com/yssl/QFEnter.git)
        - tabular (https://github.com/godlygeek/tabular.git)
