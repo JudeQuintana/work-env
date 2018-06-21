@@ -127,3 +127,5 @@ export PATH=$PATH:$GOROOT/bin
 
 #HOMEBREW
 export HOMEBREW_GITHUB_API_TOKEN=""
+
+bindkey "^u" backward-kill-line
