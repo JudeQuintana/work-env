@@ -128,5 +128,7 @@ export PATH=$PATH:$GOROOT/bin
 #HOMEBREW
 export HOMEBREW_GITHUB_API_TOKEN=""
 
+fpath=(/usr/local/share/zsh-completions $fpath)
+
 # WIP for hex codes in iterm2 for cmd+delete
 #bindkey "^u" backward-kill-line
