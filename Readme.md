@@ -89,3 +89,7 @@ FINAL:
 ### Controls
 
 TODO
+
+### Example Picture
+ ![example](https://raw.githubusercontent.com/JudeQuintana/work-env/d73b54852879d70ec395d80c58001a050395d956/example_work_env.jpg)
+
