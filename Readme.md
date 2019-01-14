@@ -1,3 +1,6 @@
+### Work Env Picture
+ ![example](https://raw.githubusercontent.com/JudeQuintana/work-env/d73b54852879d70ec395d80c58001a050395d956/example_work_env.jpg)
+
 MacOS High Sierra
 
 NOTE: any `mv` commands means moving the repsective file from this git
@@ -101,6 +104,4 @@ FINAL:
 
 TODO
 
-### Example Picture
- ![example](https://raw.githubusercontent.com/JudeQuintana/work-env/d73b54852879d70ec395d80c58001a050395d956/example_work_env.jpg)
 
