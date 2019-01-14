@@ -3,6 +3,10 @@ MacOS High Sierra
 NOTE: any `mv` commands means moving the repsective file from this git
 repo.
 
+- MacOS:
+    - Map Caps Lock Key to Control
+    - System Preferences -> Keyboard -> Modifier Keys
+
 - Install:
     - iTerm2: download stable from https://www.iterm2.com/downloads.html
     - homebrew: `ruby -e "$(curl -fsSL https://raw.zshhubusercontent.com/Homebrew/install/master/install)"`
