@@ -24,7 +24,7 @@ iTerm2:
 
 Via Homebrew
   - install/upgrade:
-      - `brew install vim tmux the_silver_searcher reattach-to-user-namespace ctags git jq htop thefuck`
+      - `brew install vim tmux the_silver_searcher reattach-to-user-namespace ctags git jq htop thefuck terraform`
       - Optional: `brew install source-highlight`, this is a big install. I use this for syntax highlighting
         in less. If you dont want this comment out the following lines out of `.zshrc`
       - ```
