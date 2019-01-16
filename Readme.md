@@ -1,5 +1,5 @@
 ### work-env
- ![example](https://raw.githubusercontent.com/JudeQuintana/work-env/d73b54852879d70ec395d80c58001a050395d956/work_env.jpg)
+ ![example](https://raw.githubusercontent.com/JudeQuintana/work-env/master/work_env.jpg)
 
 MacOS High Sierra
 
