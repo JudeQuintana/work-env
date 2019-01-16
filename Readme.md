@@ -54,6 +54,7 @@ plugins so `git checkout 0743d3d` is necessary, after initial cloning.
        - vim-db (https://github.com/tpope/vim-dadbod)
        - vim-tags (https://github.com/szw/vim-tags)
        - tagbar (https://github.com/majutsushi/tagbar)
+       - vim-zoom (https://github.com/dhruvasagar/vim-zoom)
       - `mv .vim.before ~`
       - `mv .vim.after ~`
 
