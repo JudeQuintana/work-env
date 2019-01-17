@@ -26,7 +26,7 @@ Via Homebrew
   - install/upgrade:
       - `brew install vim tmux the_silver_searcher ack reattach-to-user-namespace ctags git jq htop thefuck terraform`
       - Optional: `brew install source-highlight`, this is a big install. I use this for syntax highlighting
-        in less. If you dont want this comment out the following lines out of `.zshrc`
+        in `less` output. If you dont want this, comment out the following lines out of `.zshrc`
       - ```
           LESSPIPE=`which src-hilite-lesspipe.sh`
           export LESSOPEN="| ${LESSPIPE} %s"
