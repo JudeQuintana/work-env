@@ -98,10 +98,6 @@ alias history="fc -il 1"
 alias s="google"
 alias gcst="git -c color.status=always status -v | less -REX"
 
-LESSPIPE=`which src-hilite-lesspipe.sh`
-export LESSOPEN="| ${LESSPIPE} %s"
-export LESS='-R'
-
 source ~/.bin/tmuxinator.zsh
 
 #Manipulate and export PATH over here
