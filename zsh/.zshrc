@@ -108,18 +108,13 @@ PATH="/usr/local/sbin:$PATH"
 #utils (ie terraform)
 PATH="$PATH:$HOME/bin"
 
-#GOLANG
-#export GOPATH="$HOME/go"
-#PATH="$PATH:$GOPATH/bin"
-#export GOROOT="/usr/local/opt/go/libexec"
-#export PATH="$PATH:$GOROOT/bin"
-
-#from the net
-export GOPATH=$HOME/golang
+export GOPATH=$HOME/go
 export GOROOT=/usr/local/opt/go/libexec
 export GOBIN=$GOPATH/bin
 export PATH=$PATH:$GOPATH
 export PATH=$PATH:$GOROOT/bin
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+export PATH=$PATH:$GOBIN
 
 #HOMEBREW
 export HOMEBREW_GITHUB_API_TOKEN=""
