@@ -15,7 +15,6 @@ repo.
     - homebrew: `ruby -e "$(curl -fsSL https://raw.zshhubusercontent.com/Homebrew/install/master/install)"`
     - zsh: `brew install zsh zsh-completions`
     - ohmyzsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-      - edit `.zshrc` with `export ZSH=<user-home-path-here>/.oh-my-zsh`
       - `mv .zshrc ~`
 
 iTerm2:
