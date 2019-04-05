@@ -141,7 +141,8 @@ exit scroll mode.
    - if several open panes are displayed, you can zoom in/out to one
      pane: `cmd+w` then `o` (note: sometimes vim doesnt remember the
 last pane configuration when zooming out, not sure why)
-   - to align open panes: `cmd+w` then `=`
+   - to align open panes: `cmd+w` then `=` (note usually use this when
+     panes get shifted when zooming in/out of tmux pane with vim open)
    - Shift current pane to far left: `cmd+w` then `H`
    - Shift current pane to far right: `cmd+w` then `L`
    - if all panes are vertically split, then organize them horizontally
