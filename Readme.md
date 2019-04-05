@@ -96,6 +96,105 @@ FINAL:
 
 ### Controls
 
-TODO
+## Tmux
 
+Navigation
+ - Panes:
+   - Left: `cmd+h`
+   - Up: `cmd+k`
+   - Down: `cmd+j`
+   - Right: `cmd+l`
+   - Zoom In/Out: `cmd+z`
+   - Create new vertical pane: `cmd+|`
+   - Create new horizontal pane: `cmd+-`(hyphen)
+   - Move Pane Left: `cmd+{`
+   - Move Pane Right: `cmd+}`
+   - scroll buffer: `cmd+[`
+     - use vim controls to navigate left(`h`), Up(`k`), Down(`j`),
+       Right(`l`), back page(`ctrl-b`), forward page(`ctrl-f`), etc
+     - to copy text, enter highlight mode `v` (start highlight at
+       current cursor) or `V` (start highlight entire line), use vim
+controls to select desired text. `esc` to stop highlight mode but stay
+in scroll mode. `return` to copy selected text to system clipboard, will
+exit scroll mode.
+
+ - Windows:
+   - Next Window (Right): `cmd+p`
+   - Prev Window (Left): `cmd+P`
+
+ - Other:
+   - any other tmux that are not mapped via hex codes use `ctrl+q` for
+     tmux leader key
+
+
+## Vim
+ - Leader Key (lkey): `,`
+
+ - Open/Close NerdTree file browser: `lkey+n`
+   - Open file in current pane: `return`
+   - Open file split vertical: `s`
+   - Open file split horizontal: `i`
+   - Show hidden files: `I`
+
+ - navigate open panes
+   - left `cmd+w` then `h`, Up `cmd+w` then `h`, Down `cmd+w` then `j`, Right `cmd+w` then `l`
+   - if several open panes are displayed, you can zoom in/out to one
+     pane: `cmd+w` then `o`
+   - to align open panes: `cmd+w` then `=`
+
+ - if you want to find where the current file (open buffer) is located:
+   `lkey+r`
+
+ - Search file system by file name: `ctrl-p` then start typing name of file, will
+   list files that match, use `esc` to exit search mode.
+   - Select files, up and down: `up/down arrow keys`
+     - Open file in current pane: `return`
+     - Open file in vertical pane: `ctrl-v`
+     - Open file in horizontal pane: `ctrl-x`
+
+ - Search open buffers by file name: `ctrl-p` then `ctrl-f` then start typing name of file, will
+   list files that match, use `esc` to exit search mode.
+   - Select files, up and down: `up/down arrow keys`
+     - Open file in current pane: `return`
+     - Open file in vertical pane: `ctrl-v`
+     - Open file in horizontal pane: `ctrl-x`
+   - Since you can see a list of open buffers at the top even though
+     they may not be displayed you can open them in splits by name
+     - split vertical open but not displayed buffer: `:vert sb filename`
+       you can tab expand the file name here without type full path
+     - split horizontal open but not displayed buffer: `:sb filename`
+       you can tab expand the file name here without type full path
+
+ - Step through open buffers using the current open buffer
+  - Left `ctrl+h`, Right `ctrl+l`
+
+ - Grep for text in all files: `\\`(single backslash) then type text
+   you want to search for, then `return`. Will open QuickFix List pane.
+     - use vim controls to navigate left(`h`), Up(`k`), Down(`j`),
+       Right(`l`)
+       - Open file in current pane: `return`
+       - Open file in vertical pane: `ctrl-v`
+       - Open file in horizontal pane: `ctrl-x`
+     - close QuickFix list pane: `:ccl`
+
+ - to see history of edits on a file: `F5`, step through history, `:q`
+   to close
+
+ - Git blame: `:Gblame`, `:q` to close
+
+ - Rename file in open buffer: `:Rename new-file-name`
+
+## Terminal
+ - quickly cd into previous directories w/o typing absolute path: `z dir-name`
+ - enter vim mode on command line: `esc` then use vim controls to
+   navigate or edit. if editing a long command type `v` to edit command
+line in a vim editor. `ctrl-c` to exit vim mode
+ - find previous commands as prefix (like ctrl-r), to scroll through
+   history for commands that begin with ssh: `ssh` then use `up arrow`
+to show only previous commands that begin with ssh.
+ - cd into last dir: `-`
+ - cd into directory above my current dir: `..` back one dir, `...` back two dirs, `....`, etc.
+
+ - I use the following ZSH plugins, look them up if you want to know
+   more: git rails vi-mode history-substring-search osx extract z web-search docker thefuck git-open
 
