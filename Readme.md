@@ -139,8 +139,15 @@ exit scroll mode.
  - navigate open panes
    - left `cmd+w` then `h`, Up `cmd+w` then `h`, Down `cmd+w` then `j`, Right `cmd+w` then `l`
    - if several open panes are displayed, you can zoom in/out to one
-     pane: `cmd+w` then `o`
+     pane: `cmd+w` then `o` (note: sometimes vim doesnt remember the
+last pane configuration when zooming out, not sure why)
    - to align open panes: `cmd+w` then `=`
+   - Shift current pane to far left: `cmd+w` then `H`
+   - Shift current pane to far right: `cmd+w` then `L`
+   - if all panes are vertically split, then organize them horizontally
+      - select each pane: `cmd+w` then `J` or `K`
+   - if all panes are horizontally split, then organize them vertically
+      - select each pane: `cmd+w` then `H` or `L`
 
  - if you want to find where the current file (open buffer) is located:
    `lkey+r`
