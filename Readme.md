@@ -110,6 +110,8 @@ Navigation
    - Move Pane Left: `cmd+{`
    - Move Pane Right: `cmd+}`
    - scroll buffer: `cmd+[`
+     - search up: `?`
+     - search down: `/`
      - use vim controls to navigate left(`h`), Up(`k`), Down(`j`),
        Right(`l`), back page(`ctrl-b`), forward page(`ctrl-f`), etc
      - to copy text, enter highlight mode `v` (start highlight at
