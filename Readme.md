@@ -117,6 +117,7 @@ Navigation
 controls to select desired text. `esc` to stop highlight mode but stay
 in scroll mode. `return` to copy selected text to system clipboard, will
 exit scroll mode.
+     - clear scroll buffer: `ctrl-k`
 
  - Windows:
    - Next Window (Right): `cmd+p`
@@ -149,6 +150,11 @@ last pane configuration when zooming out, not sure why)
       - select each pane: `cmd+w` then `J` or `K`
    - if all panes are horizontally split, then organize them vertically
       - select each pane: `cmd+w` then `H` or `L`
+ - Close Open Panes
+   - Close open pane but keep open buffer: `:q`
+   - Close open pane and close open buffer: `:bd`
+   - Close open buffer but and replace open pane with next open buffer:
+     `:BD`
 
  - if you want to find where the current file (open buffer) is located:
    `lkey+r`
