@@ -86,6 +86,8 @@ iTerm2:
       https://images7.alphacoders.com/321/thumb-1920-321966.jpg
  - under preferences -> profiles -> keys
    - map hot keys according to `hexcodes1.png` and `hexcodes2.png`
+   - ^this is so that we dont have to press tmux leader key `ctrl+q` + tmux-cmd, we
+     just map `ctrl-q` to `cmd` key, for easier/faster typing
    - or load `iterm/profiles.json`
 
 FINAL:
