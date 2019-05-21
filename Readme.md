@@ -24,7 +24,7 @@ iTerm2:
 
 Via Homebrew
   - install/upgrade:
-      - `brew install git vim tmux the_silver_searcher httpie reattach-to-user-namespace ctags git jq htop thefuck terraform ccat hub`
+      - `brew install git vim tmux the_silver_searcher httpie reattach-to-user-namespace ctags git jq htop thefuck tfenv ccat hub`
 
 Vim:
   - Install janus (https://github.com/carlhuda/janus)
