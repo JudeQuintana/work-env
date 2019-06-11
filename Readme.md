@@ -119,6 +119,8 @@ Navigation
    - Create new horizontal pane: `cmd+-`(hyphen)
    - Move Pane Left: `cmd+{`
    - Move Pane Right: `cmd+}`
+   - Send cmd to all panes (in current window): `ctrl-s` then type the command you want to run.
+     - Stop sending cmd to all panes: `ctrl-u`
    - scroll buffer: `cmd+[`
      - search up: `?`
      - search down: `/`
