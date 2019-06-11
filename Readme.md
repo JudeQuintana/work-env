@@ -65,7 +65,7 @@ rvm (https://rvm.io/)
   - install: `curl -sSL https://get.rvm.io | bash -s stable` and follow
     sourcing instructions at the end
   - install ruby 2.5.5 `rvm install 2.5.5` and `rvm --default use 2.5.5`
-  - install older bundler `gem i bundler -v 1.17.3` (this is specific to
+  - install older bundler `gem install bundler -v 1.17.3` (this is specific to
     my current work env)
   - install tmuxinator: `gem install tmuxinator`
 
