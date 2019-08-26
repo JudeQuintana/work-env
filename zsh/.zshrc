@@ -53,7 +53,7 @@ DISABLE_UPDATE_PROMPT=true
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git rails vi-mode history-substring-search osx extract z web-search docker thefuck git-open)
+plugins=(git rails vi-mode history-substring-search osx extract z web-search docker git-open)
 
 source $ZSH/oh-my-zsh.sh
 
