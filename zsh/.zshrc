@@ -97,6 +97,8 @@ alias myip='curl https://ifconfig.co/json | jq "."'
 alias history="fc -il 1"
 alias s="google"
 
+# uncomment when the fuck is installed
+#eval $(thefuck --alias)
 source ~/.bin/tmuxinator.zsh
 
 #Manipulate and export PATH over here
@@ -104,7 +106,7 @@ source ~/.bin/tmuxinator.zsh
 #homebrew
 PATH="/usr/local/sbin:$PATH"
 
-#utils (ie terraform)
+#utils
 PATH="$PATH:$HOME/bin"
 
 export GOPATH=$HOME/go
