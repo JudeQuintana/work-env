@@ -3,12 +3,25 @@
 
 MacOS High Sierra
 
+### Intro
+I've invested a significant amount of time to build this work(flow)
+environment especially the themeing. Each tmux window is a workspace
+and I'm able to navigate and manipulate my environement ( ie windows,
+panes, code) from only the CLI (no mouse) with precision and speed.
+Thought it would be nice to share it with the rest of the world. Yeah
+I couldn've wrote a script but for me it's more of an excersize in
+documenting and following instructions. Hope it helps your workflow!
+
 NOTE: any `mv` commands means moving the repsective file from this git
 repo.
 
 - MacOS:
     - Map Caps Lock Key to Control
-    - System Preferences -> Keyboard -> Modifier Keys
+      - System Preferences -> Keyboard -> Modifier Keys
+    - install flycut, multi-clipboard for the system
+    - install lastpass, for quick password access
+      - use shift+cmd+L, type name (navigate with arrows), ctrl-C (copy
+        highlighted matching lable)
 
 - Install:
     - iTerm2: download stable from https://www.iterm2.com/downloads.html
