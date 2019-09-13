@@ -68,6 +68,7 @@ rvm (https://rvm.io/)
   - install older bundler `gem install bundler -v 1.17.3` (this is specific to
     my current work env)
   - install tmuxinator: `gem install tmuxinator`
+  - install travis: `gem install travis`
 
 Tmux:
   - set up tmuxinator config
