@@ -538,8 +538,8 @@
   "Smart Cursor Color" : true,
   "Semantic History" : {
     "editor" : "com.sublimetext.3",
-    "action" : "best editor",
-    "text" : ""
+    "text" : "",
+    "action" : "best editor"
   },
   "Ambiguous Double Width" : false,
   "Blur Radius" : 2,
