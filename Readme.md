@@ -9,7 +9,7 @@ environment especially the themeing. Each tmux window is a workspace
 and I'm able to navigate and manipulate my environement ( ie windows,
 panes, code) from only the CLI (no mouse) with precision and speed.
 Thought it would be nice to share it with the rest of the world. Yeah
-I couldn've wrote a script but for me it's more of an excersize in
+I could've wrote a script but for me it's more of an excersize in
 documenting and following instructions. Hope it helps your workflow!
 
 NOTE: any `mv` commands means moving the repsective file from this git
