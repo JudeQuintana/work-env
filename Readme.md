@@ -23,6 +23,8 @@ repo.
     - install lastpass, for quick password access
       - use `shift+cmd+L`, type name (navigate with arrows), `ctrl-C` (copy
         highlighted matching label)
+    - install Spectacle, to allow for arranging MacOS windows via key
+      shortcuts.
 
 - Install:
     - iTerm2: download stable from https://www.iterm2.com/downloads.html
@@ -237,6 +239,7 @@ line in a vim editor. `ctrl-c` to exit vim mode
    history for commands that begin with ssh: `ssh` then use `up arrow`
 to show only previous commands that begin with ssh.
  - cd into last dir: `-`
+ - cd into home dir: `~`
  - cd into directory above my current dir: `..` back one dir, `...` back two dirs, `....`, etc.
 
  - I use the following ZSH plugins, look them up if you want to know
