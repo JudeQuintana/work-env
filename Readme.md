@@ -18,10 +18,11 @@ repo.
 - MacOS:
     - Map Caps Lock Key to Control
       - System Preferences -> Keyboard -> Modifier Keys
-    - install flycut, multi-clipboard for the system
+    - install flycut, multi-clipboard for the system, `shift+ctrl+v` +
+      `left` or `right` arrow keys to pick which clipboard to paste
     - install lastpass, for quick password access
-      - use shift+cmd+L, type name (navigate with arrows), ctrl-C (copy
-        highlighted matching lable)
+      - use `shift+cmd+L`, type name (navigate with arrows), `ctrl-C` (copy
+        highlighted matching label)
 
 - Install:
     - iTerm2: download stable from https://www.iterm2.com/downloads.html
@@ -239,5 +240,5 @@ to show only previous commands that begin with ssh.
  - cd into directory above my current dir: `..` back one dir, `...` back two dirs, `....`, etc.
 
  - I use the following ZSH plugins, look them up if you want to know
-   more: git rails vi-mode history-substring-search osx extract z web-search docker thefuck git-open
+   more: `git rails vi-mode history-substring-search osx extract z web-search docker thefuck git-open`
 
