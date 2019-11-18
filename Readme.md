@@ -86,7 +86,8 @@ rvm (https://rvm.io/)
 Tmux:
   - set up tmuxinator config
     - `mkdir ~/.tmuxinator` and `mv hustle.yml ~/.tmuxinator/`
-    - `mkidr ~/.bin` and `mv tmuxinator.zsh ~/.bin/`
+    - `mkidr ~/.bin` and `mv tmuxinator.zsh ~/.bin/` (you'll need to add
+      `~/.bin` to your PATH)
 
   - clone this repo anywhere and install fonts
     - `git clone https://github.com/powerline/fonts`
