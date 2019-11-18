@@ -6,7 +6,7 @@ MacOS High Sierra
 ### Intro
 I've invested a significant amount of time to build this work(flow)
 environment especially the themeing. Each tmux window is a workspace
-and I'm able to navigate and manipulate my environement ( ie windows,
+and I'm able to navigate and manipulate my environment ( ie windows,
 panes, code) from only the CLI (no mouse) with precision and speed.
 Thought it would be nice to share it with the rest of the world. Yeah
 I could've wrote a script but for me it's more of an excersize in
@@ -87,7 +87,7 @@ Tmux:
   - set up tmuxinator config
     - `mkdir ~/.tmuxinator` and `mv hustle.yml ~/.tmuxinator/`
     - `mkidr ~/.bin` and `mv tmuxinator.zsh ~/.bin/` (you'll need to add
-      `~/.bin` to your PATH)
+      `~/.bin` to your `PATH`)
 
   - clone this repo anywhere and install fonts
     - `git clone https://github.com/powerline/fonts`
