@@ -244,4 +244,6 @@ to show only previous commands that begin with ssh.
 
  - I use the following ZSH plugins, look them up if you want to know
    more: `git rails vi-mode history-substring-search osx extract z web-search docker thefuck git-open`
+ - check out all the amazing git command aliases with `alias|grep git`,
+ - my favs: `gl` - git pull, `gp` - git push, `glol`- colorful logs, `gaa` - git add all, `gcmsg 'you know my steez'` - commit message, `gup` - rebase, `gco -b new-branch` - make new branch, `gcm` - checkout master
 
