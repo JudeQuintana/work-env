@@ -153,7 +153,7 @@ exit scroll mode.
 
  - Windows:
    - Next Window (Right): `cmd+p`
-   - Prev Window (Left): `cmd+P`
+   - Prev Window (Left): `cmd+shift+p`
 
  - Other:
    - any other tmux that are not mapped via hex codes use `ctrl+q` for
@@ -207,9 +207,9 @@ last pane configuration when zooming out, not sure why)
    - Since you can see a list of open buffers at the top even though
      they may not be displayed you can open them in splits by name
      - split vertical open but not displayed buffer: `:vert sb filename`
-       you can tab expand the file name here without type full path
+       you can tab expand the file name here without typing full path
      - split horizontal open but not displayed buffer: `:sb filename`
-       you can tab expand the file name here without type full path
+       you can tab expand the file name here without typing full path
 
  - Step through open buffers using the current open buffer
   - Left `ctrl+h`, Right `ctrl+l`
