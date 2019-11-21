@@ -233,8 +233,8 @@ last pane configuration when zooming out, not sure why)
 ## Terminal
  - quickly cd into previous directories w/o typing absolute path: `z dir-name`
  - enter vim mode on command line: `esc` then use vim controls to
-   navigate or edit. if editing a long command type `v` to edit command
-line in a vim editor. `ctrl-c` to exit vim mode
+   navigate or edit. vim mode `i` for insert (exit vim mode). if editing a long command in vim mode type `v` to edit command
+line in a vim editor (qw) to save and exit.  sometimes you'll get a strange `execute:` mode (idk what it is for yet) just `ctrl-c` to exit execute mode
  - find previous commands as prefix (like ctrl-r), to scroll through
    history for commands that begin with ssh: `ssh` then use `up arrow`
 to show only previous commands that begin with ssh.
