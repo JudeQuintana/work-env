@@ -26,6 +26,9 @@ repo.
     - install Spectacle, to allow for arranging MacOS windows via key
       shortcuts.
 
+- Chrome Browser:
+    - install Vimium (vim controls for browsing)
+
 - Install:
     - iTerm2: download stable from https://www.iterm2.com/downloads.html
     - homebrew: `ruby -e "$(curl -fsSL https://raw.zshhubusercontent.com/Homebrew/install/master/install)"`
