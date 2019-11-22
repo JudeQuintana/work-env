@@ -103,23 +103,28 @@ Tmux:
         `tmux-themepack/powerline/default/blue.tmuxtheme`
 
 iTerm2:
-  - under preferences -> profiles -> text
-  - set fonts
-    - ascii font - 13pt Monaco
-    - non ascii font - 13pt source code pro for powerline
-  - under preferences -> profiles -> window
-    - background image from
-      https://images7.alphacoders.com/321/thumb-1920-321966.jpg
- - under preferences -> profiles -> keys
-   - map hot keys according to `hexcodes1.png` and `hexcodes2.png`
-   - ^this is so that we dont have to press tmux leader key `ctrl+q` + tmux-cmd, we
-     just map `ctrl-q` to `cmd` key, for easier/faster typing
-   - or load `iterm/profile.json`
+
+  - Load `iterm/profile.json`
+  - Or do the following:
+    - under preferences -> profiles -> text
+    - set fonts
+      - ascii font - 13pt Monaco
+      - non ascii font - 13pt source code pro for powerline
+    - under preferences -> profiles -> window
+      - background image from
+        https://images7.alphacoders.com/321/thumb-1920-321966.jpg
+   - under preferences -> profiles -> keys
+     - map hot keys according to `hexcodes1.png` and `hexcodes2.png`
+     - ^this is so that we dont have to press tmux leader key `ctrl+q` + tmux-cmd, we
+       just map `ctrl-q` to `cmd` key, for easier/faster typing
 
 FINAL:
   - Quit iterm
   - load iterm
   - enter the command `m` at the terminal and everything SHOULD spin up
+    (first startup will be SLOW)
+  - Once the tmux env is running, you can close and reopen iterm, press
+    `m` and you're instantly back in your tmux session.
 
 
 ### Controls
