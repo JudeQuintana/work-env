@@ -1,7 +1,7 @@
 ### work-env
  ![example](https://raw.githubusercontent.com/JudeQuintana/work-env/master/work_env.jpg)
 
-MacOS High Sierra
+MacOS Catalina
 
 ### Intro
 I've invested a significant amount of time to build this work(flow)
@@ -42,11 +42,8 @@ iTerm2:
      - import Dracula.itermcolors
 
 Via Homebrew
-  - NOTE: the latest tmuxinator has incompatibility issues with latest
-    tmux 2.9a, so install tmux 2.8 for now:  `brew install
-https://raw.githubusercontent.com/Homebrew/homebrew-core/b3bd700d9fc53fa153c884b0ea613822de1f375c/Formula/tmux.rb`
   - install/upgrade:
-      - `brew install git vim the_silver_searcher httpie reattach-to-user-namespace ctags git jq htop thefuck tfenv ccat hub`
+      - `brew install tmux git vim the_silver_searcher httpie reattach-to-user-namespace ctags git jq htop thefuck tfenv ccat`
 
 Vim:
   - Install janus (https://github.com/carlhuda/janus)

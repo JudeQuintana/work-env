@@ -51,6 +51,7 @@
   "Scrollback Lines" : 0,
   "Scrollback in Alternate Screen" : true,
   "Scrollback With Status Bar" : false,
+  "Draw Powerline Glyphs" : false,
   "Status Bar Layout" : {
     "components" : [
       {
@@ -153,11 +154,6 @@
   },
   "BM Growl" : true,
   "AWDS Window Directory" : "",
-  "Ansi 3 Color" : {
-    "Green Component" : 0.98039215686274506,
-    "Blue Component" : 0.5490196078431373,
-    "Red Component" : 0.94509803921568625
-  },
   "Use Non-ASCII Font" : true,
   "Link Color" : {
     "Red Component" : 0,
@@ -165,6 +161,11 @@
     "Blue Component" : 0.73423302173614502,
     "Alpha Component" : 1,
     "Green Component" : 0.35916060209274292
+  },
+  "Ansi 3 Color" : {
+    "Green Component" : 0.98039215686274506,
+    "Blue Component" : 0.5490196078431373,
+    "Red Component" : 0.94509803921568625
   },
   "Shortcut" : "",
   "Background Image Location" : "\/Users\/jude\/Downloads\/8bitmetroidscene.jpg",
