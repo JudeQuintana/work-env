@@ -51,8 +51,7 @@ Vim:
 
     - `mkdir ~/.janus` and `git clone` these plugin repos in it:
        - dracula-theme (https://github.com/dracula/vim)
-         NOTE: currently, master breaks some syntax highlighting
-plugins so `git checkout 0743d3d` is necessary, after initial cloning.
+         NOTE: this theme works great on `master` branch. Also an older commit also looks good, try comparing with `git checkout 0743d3d`.
        - vim-airline (https://github.com/vim-airline/vim-airline)
        - vim-airline-themes (https://github.com/vim-airline/vim-airline-themes)
        - vim-bufkill (https://github.com/qpkorr/vim-bufkill)
