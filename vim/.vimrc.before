@@ -1,5 +1,6 @@
 let mapleader = ","
 set clipboard=unnamed
+set cursorline
 
 if executable("ag")
    set grepprg=ag\ --nogroup\ --nocolor
