@@ -50,30 +50,29 @@ Vim:
     - `curl -L https://bit.ly/janus-bootstrap | bash`
 
     - `mkdir ~/.janus` and `git clone` these plugin repos in it:
-       - dracula-theme (https://github.com/dracula/vim)
+       - `git clone https://github.com/dracula/vim` Darcula Vim Theme
          NOTE: this theme works great on `master` branch. Also an older commit also looks good, try comparing with `git checkout 0743d3d`.
-       - vim-airline (https://github.com/vim-airline/vim-airline)
-       - vim-airline-themes (https://github.com/vim-airline/vim-airline-themes)
-       - vim-bufkill (https://github.com/qpkorr/vim-bufkill)
-       - vim-go (https://github.com/fatih/vim-go)
-       - vim-terraform (https://github.com/hashivim/vim-terraform)
-       - qfenter (https://github.com/yssl/QFEnter.git)
-       - tabular (https://github.com/godlygeek/tabular.git)
-       - vim-bundler (https://github.com/tpope/vim-bundler)
-       - vim-rails (https://github.com:tpope/vim-rails.git)
-       - vim-surround (https://github.com:tpope/vim-surround.git)
-       - vim-db (https://github.com/tpope/vim-dadbod)
-       - vim-tags (https://github.com/szw/vim-tags)
-       - tagbar (https://github.com/majutsushi/tagbar)
-       - vim-docker-tools (https://github.com/kkvh/vim-docker-tools)
-       - nerdtree-git-plugin
-         (https://github.com/Xuyuanp/nerdtree-git-plugin)
-      - `mv .vim.before ~`
-      - `mv .vim.after ~`
+       - `git clone https://github.com/vim-airline/vim-airline`
+       - `git clone https://github.com/vim-airline/vim-airline-themes`
+       - `git clone https://github.com/qpkorr/vim-bufkill`
+       - `git clone https://github.com/fatih/vim-go`
+       - `git clone https://github.com/hashivim/vim-terraform`
+       - `git clone https://github.com/yssl/QFEnter.git`
+       - `git clone https://github.com/godlygeek/tabular.git`
+       - `git clone https://github.com/tpope/vim-bundler`
+       - `git clone https://github.com/tpope/vim-rails.git`
+       - `git clone https://github.com/tpope/vim-surround.git`
+       - `git clone https://github.com/tpope/vim-dadbod`
+       - `git clone https://github.com/szw/vim-tags`
+       - `git clone https://github.com/majutsushi/tagbar`
+       - `git clone https://github.com/kkvh/vim-docker-tools`
+       - `git clone https://github.com/Xuyuanp/nerdtree-git-plugin`
+    - `mv .vim.before ~`
+    - `mv .vim.after ~`
 
 OhMyZSH `git-open` Plugin:
   - `cd ~/.oh-my-zsh/custom/plugins`
-  - `git clone git@github.com:paulirish/git-open.git`
+  - `git clone https://github.com/paulirish/git-open.git`
 
 
 rvm (https://rvm.io/)
