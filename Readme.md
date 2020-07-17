@@ -66,7 +66,9 @@ Vim:
        - `git clone https://github.com/szw/vim-tags`
        - `git clone https://github.com/majutsushi/tagbar`
        - `git clone https://github.com/kkvh/vim-docker-tools`
-       - `git clone https://github.com/Xuyuanp/nerdtree-git-plugin`
+       - `git clone https://github.com/Xuyuanp/nerdtree-git-plugin` then
+         `git checkout f522a09` for stable functionality, trying to
+figure out how to get `master` working
     - `mv .vim.before ~`
     - `mv .vim.after ~`
 
