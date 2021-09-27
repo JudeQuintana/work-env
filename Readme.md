@@ -5,7 +5,7 @@ MacOS Catalina
 
 ### Intro
 I've invested a significant amount of time to build this work(flow)
-environment especially the themeing. Each tmux window is a workspace
+environment especially the theme. Each tmux window is a workspace
 and I'm able to navigate and manipulate my environment ( ie windows,
 panes, code) from only the CLI (no mouse) with precision and speed.
 Thought it would be nice to share it with the rest of the world. Yeah
