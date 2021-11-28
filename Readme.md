@@ -1,7 +1,7 @@
 ### work-env
  ![example](https://raw.githubusercontent.com/JudeQuintana/work-env/master/work_env.jpg)
 
-MacOS Catalina
+macOS Monterey M1
 
 ### Intro
 I've invested a significant amount of time to build this work(flow)
@@ -18,10 +18,10 @@ repo.
 - MacOS:
     - Map Caps Lock Key to Control
       - System Preferences -> Keyboard -> Modifier Keys
-    - install flycut, multi-clipboard for the system, `shift+ctrl+v` +
+    - install flycut, multi-clipboard for the system, `shift-ctrl-v` +
       `left` or `right` arrow keys to pick which clipboard to paste
     - install lastpass, for quick password access
-      - use `shift+cmd+L`, type name (navigate with arrows), `ctrl-C` (copy
+      - use `shift-cmd-L`, type name (navigate with arrows), `ctrl-C` (copy
         highlighted matching label)
     - install Spectacle, to allow for arranging MacOS windows via key
       shortcuts.
@@ -31,23 +31,30 @@ repo.
 
 - Install:
     - iTerm2: download stable from https://www.iterm2.com/downloads.html
-    - homebrew: `ruby -e "$(curl -fsSL https://raw.zshhubusercontent.com/Homebrew/install/master/install)"`
+    - homebrew: `/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"`
     - zsh: `brew install zsh zsh-completions`
     - ohmyzsh `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
       - `mv .zshrc ~`
 
 iTerm2:
   - Install theme:
-     - git clone (https://github.com/dracula/iterm.git)
+     - git clone https://github.com/dracula/iterm.git
+     - Preferences -> Profile -> Colors
      - import Dracula.itermcolors
+     - set Dracula color preset
 
 Via Homebrew
   - install/upgrade:
-      - `brew install tmux git hub gh vim the_silver_searcher httpie reattach-to-user-namespace ctags jq htop thefuck tfenv ccat bat ipcalc`
+      - `brew install tmux git hub gh vim the_silver_searcher httpie reattach-to-user-namespace ctags jq htop thefuck tfenv ccat bat ipcalc hugo`
 
 Vim:
   - Install janus (https://github.com/carlhuda/janus)
-    - `curl -L https://bit.ly/janus-bootstrap | bash`
+    - `curl -L https://bit.ly/janus-bootstrap | bash`, syntax hilighting
+      plugins, etc.
+    - `cd $HOME/.vim/janus/vim/tools/fugitive && git checkout
+      master`, fixes issues with latest vim
+    - `cd $HOME/.vim/janus/vim/tools/&& git checkout master`, fixes issues with
+      latest vim
 
     - `mkdir ~/.janus` and `git clone` these plugin repos in it:
        - `git clone https://github.com/dracula/vim` Darcula Vim Theme
@@ -80,17 +87,14 @@ OhMyZSH `git-open` Plugin:
 rvm (https://rvm.io/)
   - install: `curl -sSL https://get.rvm.io | bash -s stable` and follow
     sourcing instructions at the end
-  - install ruby 2.5.5 `rvm install 2.5.5` and `rvm --default use 2.5.5`
-  - install older bundler `gem install bundler -v 1.17.3` (this is specific to
-    my current work env)
+  - install ruby 2.5.5 `rvm install 3.0.3` and `rvm --default use 3.0.3`
   - install tmuxinator: `gem install tmuxinator`
-  - install travis: `gem install travis`
 
 Tmux:
   - set up tmuxinator config
     - `mkdir ~/.tmuxinator` and `mv hustle.yml ~/.tmuxinator/`
-    - `mkidr ~/.bin` and `mv tmuxinator.zsh ~/.bin/` (you'll need to add
-      `~/.bin` to your `PATH`)
+    - `mkidr ~/bin` and `mv tmuxinator.zsh ~/bin/` (you'll need to add
+      `~/bin` to your `PATH`)
 
   - clone this repo anywhere and install fonts
     - `git clone https://github.com/powerline/fonts`
@@ -103,7 +107,6 @@ Tmux:
         `tmux-themepack/powerline/default/blue.tmuxtheme`
 
 iTerm2:
-
   - Load `iterm/profile.json`
   - Or do the following:
     - under preferences -> profiles -> text
@@ -115,14 +118,14 @@ iTerm2:
         https://images7.alphacoders.com/321/thumb-1920-321966.jpg
     - under preferences -> profiles -> keys
       - map hot keys according to `hexcodes1.png` and `hexcodes2.png`
-      - ^this is so that we dont have to press tmux leader key `ctrl+q` + tmux-cmd, we
+      - ^this is so that we dont have to press tmux leader key `ctrl-q` + tmux-cmd, we
         just map `ctrl-q` to `cmd` key, for easier/faster typing
 
 FINAL:
   - Quit iterm
   - load iterm
   - enter the command `m` at the terminal and everything SHOULD spin up
-    (first startup will be SLOW)
+    (first startup will be SLOW on Intel but not M1)
   - Once the tmux env is running, you can close and reopen iterm, press
     `m` and you're instantly back in your tmux session.
 
@@ -133,16 +136,16 @@ FINAL:
 
 Navigation
  - Panes:
-   - Left: `cmd+h`
-   - Up: `cmd+k`
-   - Down: `cmd+j`
-   - Right: `cmd+l`
-   - Zoom In/Out: `cmd+z`
-   - Create new vertical pane: `cmd+|`
-   - Create new horizontal pane: `cmd+-`(hyphen)
-   - Move Pane Left: `cmd+{`
-   - Move Pane Right: `cmd+}`
-   - scroll buffer: `cmd+[`
+   - Left: `cmd-h`
+   - Up: `cmd-k`
+   - Down: `cmd-j`
+   - Right: `cmd-l`
+   - Zoom In/Out: `cmd-z`
+   - Create new vertical pane: `cmd-|`
+   - Create new horizontal pane: `cmd--`(hyphen)
+   - Move Pane Left: `cmd-{`
+   - Move Pane Right: `cmd-}`
+   - scroll buffer: `cmd-[`
      - search up: `?`
      - search down: `/`
      - use vim controls to navigate left(`h`), Up(`k`), Down(`j`),
@@ -155,36 +158,36 @@ exit scroll mode.
      - clear scroll buffer: `ctrl-k`
 
  - Windows:
-   - Next Window (Right): `cmd+p`
-   - Prev Window (Left): `cmd+shift+p`
+   - Next Window (Right): `cmd-p`
+   - Prev Window (Left): `cmd-shift-p`
 
  - Other:
-   - any other tmux that are not mapped via hex codes use `ctrl+q` for
+   - any other tmux that are not mapped via hex codes use `ctrl-q` for
      tmux leader key
 
 
 ## Vim
  - Leader Key (lkey): `,`
 
- - Open/Close NerdTree file browser: `lkey+n`
+ - Open/Close NerdTree file browser: `lkey-n`
    - Open file in current pane: `return`
    - Open file split vertical: `s`
    - Open file split horizontal: `i`
    - Show hidden files: `I`
 
  - navigate open panes
-   - left `cmd+w` then `h`, Up `cmd+w` then `h`, Down `cmd+w` then `j`, Right `cmd+w` then `l`
+   - left `cmd-w` then `h`, Up `cmd-w` then `h`, Down `cmd-w` then `j`, Right `cmd-w` then `l`
    - if several open panes are displayed, you can zoom in/out to one
-     pane: `cmd+w` then `o` (note: sometimes vim doesnt remember the
+     pane: `cmd-w` then `o` (note: sometimes vim doesnt remember the
 last pane configuration when zooming out, not sure why)
-   - to align open panes: `cmd+w` then `=` (note usually use this when
+   - to align open panes: `cmd-w` then `=` (note usually use this when
      panes get shifted when zooming in/out of tmux pane with vim open)
-   - Shift current pane to far left: `cmd+w` then `H`
-   - Shift current pane to far right: `cmd+w` then `L`
+   - Shift current pane to far left: `cmd-w` then `H`
+   - Shift current pane to far right: `cmd-w` then `L`
    - if all panes are vertically split, then organize them horizontally
-      - select each pane: `cmd+w` then `J` or `K`
+      - select each pane: `cmd-w` then `J` or `K`
    - if all panes are horizontally split, then organize them vertically
-      - select each pane: `cmd+w` then `H` or `L`
+      - select each pane: `cmd-w` then `H` or `L`
  - Close Open Panes
    - Close open pane but keep open buffer: `:q`
    - Close open pane and close open buffer: `:bd`
@@ -192,7 +195,7 @@ last pane configuration when zooming out, not sure why)
      `:BD`
 
  - if you want to find where the current file (open buffer) is located:
-   `lkey+r`
+   `lkey-r`
 
  - Search file system by file name: `ctrl-p` then start typing name of file, will
    list files that match, use `esc` to exit search mode.
@@ -215,7 +218,7 @@ last pane configuration when zooming out, not sure why)
        you can tab expand the file name here without typing full path
 
  - Step through open buffers using the current open buffer
-  - Left `ctrl+h`, Right `ctrl+l`
+  - Left `ctrl-h`, Right `ctrl-l`
 
  - Grep for text in all files: `\\`(single backslash) then type text
    you want to search for, then `return`. Will open QuickFix List pane.
