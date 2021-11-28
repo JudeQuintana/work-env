@@ -110,6 +110,8 @@ alias moon="curl http://wttr.in/Moon"
 alias myip='curl https://ifconfig.co/json | jq "."'
 alias history="fc -il 1"
 alias s="google"
+alias gmcsg="gcmsg"
+alias gto="git open"
 
 # uncomment when the fuck is installed
 #eval $(thefuck --alias)
