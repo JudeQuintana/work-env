@@ -53,7 +53,7 @@ Vim:
       plugins, etc.
     - `cd $HOME/.vim/janus/vim/tools/fugitive && git checkout
       master`, fixes issues with latest vim
-    - `cd $HOME/.vim/janus/vim/tools/&& git checkout master`, fixes issues with
+    - `cd $HOME/.vim/janus/vim/tools/tlib && git checkout master`, fixes issues with
       latest vim
 
     - `mkdir ~/.janus` and `git clone` these plugin repos in it:
