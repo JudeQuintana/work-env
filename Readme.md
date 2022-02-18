@@ -87,7 +87,7 @@ OhMyZSH `git-open` Plugin:
 rvm (https://rvm.io/)
   - install: `curl -sSL https://get.rvm.io | bash -s stable` and follow
     sourcing instructions at the end
-  - install ruby 2.5.5 `rvm install 3.0.3` and `rvm --default use 3.0.3`
+  - install ruby 3.0.3 `rvm install 3.0.3` and `rvm --default use 3.0.3`
   - install tmuxinator: `gem install tmuxinator`
 
 Tmux:
