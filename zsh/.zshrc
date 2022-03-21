@@ -139,11 +139,11 @@ if type brew &>/dev/null; then
   compinit
 fi
 
+# dont log to history if starting with space
 setopt HIST_IGNORE_SPACE
 
 # Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
 export PATH="$PATH:$HOME/.rvm/bin"
 
-# path for homebrew
+# path for homebrew installation on M1
 export PATH="/opt/homebrew/bin:$PATH"
-
