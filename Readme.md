@@ -51,14 +51,12 @@ Vim:
   - Install janus (https://github.com/carlhuda/janus)
     - `curl -L https://bit.ly/janus-bootstrap | bash`, syntax hilighting
       plugins, etc.
-    - `cd $HOME/.vim/janus/vim/tools/fugitive && git checkout
-      master`, fixes issues with latest vim
-    - `cd $HOME/.vim/janus/vim/tools/tlib && git checkout master`, fixes issues with
-      latest vim
+    - `cd $HOME/.vim/janus/vim/tools/fugitive && git checkout master && git pull`, fixes issues with latest vim
+    - `cd $HOME/.vim/janus/vim/tools/tlib && git checkout master && git pull`, fixes issues with latest vim
+    - `cd $HOME/.vim/janus/vim/tools/nerdtree && git checkout master && git pull`, fixes issues with latest vim
 
     - `mkdir ~/.janus` and `git clone` these plugin repos in it:
        - `git clone https://github.com/dracula/vim` Darcula Vim Theme
-         NOTE: this theme works great on `master` branch. Also an older commit also looks good, try comparing with `git checkout 0743d3d`.
        - `git clone https://github.com/vim-airline/vim-airline`
        - `git clone https://github.com/vim-airline/vim-airline-themes`
        - `git clone https://github.com/qpkorr/vim-bufkill`
@@ -73,9 +71,7 @@ Vim:
        - `git clone https://github.com/szw/vim-tags`
        - `git clone https://github.com/majutsushi/tagbar`
        - `git clone https://github.com/kkvh/vim-docker-tools`
-       - `git clone https://github.com/Xuyuanp/nerdtree-git-plugin` then
-         `git checkout f522a09` for stable functionality, trying to
-figure out how to get `master` working
+       - `git clone https://github.com/Xuyuanp/nerdtree-git-plugin`
     - `mv .vim.before ~`
     - `mv .vim.after ~`
 
