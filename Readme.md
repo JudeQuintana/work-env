@@ -1,7 +1,7 @@
 ### work-env
  ![example](https://raw.githubusercontent.com/JudeQuintana/work-env/master/work_env.jpg)
 
-macOS Monterey M1
+macOS Ventura M1
 
 ### Intro
 I've invested a significant amount of time to build this work(flow)
@@ -20,9 +20,6 @@ repo.
       - System Preferences -> Keyboard -> Modifier Keys
     - install flycut, multi-clipboard for the system, `shift-ctrl-v` +
       `left` or `right` arrow keys to pick which clipboard to paste
-    - install lastpass, for quick password access
-      - use `shift-cmd-L`, type name (navigate with arrows), `ctrl-C` (copy
-        highlighted matching label)
     - install Spectacle, to allow for arranging MacOS windows via key
       shortcuts.
 
@@ -45,7 +42,7 @@ iTerm2:
 
 Via Homebrew
   - install/upgrade:
-      - `brew install tmux git hub gh vim the_silver_searcher httpie reattach-to-user-namespace ctags jq htop thefuck tfenv ccat bat ipcalc hugo`
+      - `brew install tmux git vim the_silver_searcher httpie reattach-to-user-namespace ctags jq htop thefuck tfenv ccat ipcalc hugo`
 
 Vim:
   - Install janus (https://github.com/carlhuda/janus)
@@ -83,7 +80,7 @@ OhMyZSH `git-open` Plugin:
 rvm (https://rvm.io/)
   - install: `curl -sSL https://get.rvm.io | bash -s stable` and follow
     sourcing instructions at the end
-  - install ruby 3.0.3 `rvm install 3.0.3` and `rvm --default use 3.0.3`
+  - install ruby 3.2.1 `rvm install 3.2.1` and `rvm --default use 3.2.1`
   - install tmuxinator: `gem install tmuxinator`
 
 Tmux:
