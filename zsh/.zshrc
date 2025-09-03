@@ -132,10 +132,10 @@ export PATH=$PATH:$GOBIN
 #HOMEBREW
 export HOMEBREW_GITHUB_API_TOKEN=""
 
-if type brew &>/dev/null; then
-  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
-
-  autoload -Uz compinit
+autoload -Uz compinit
+if [ "$(whoami)" = "YOUR_NON_ADMIN_USER" ]; then
+  compinit -i # Ignore insecure directories
+else
   compinit
 fi
 
