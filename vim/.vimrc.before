@@ -84,3 +84,5 @@ nmap <F6> :TagbarToggle<CR>
 "Search ctags
 nnoremap <leader>. :CtrlPTag<cr>
 
+"" Enable mouse
+set mouse=a
