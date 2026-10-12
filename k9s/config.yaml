@@ -1,0 +1,16 @@
+k9s:
+  liveViewAutoRefresh: true     # YAML/describe views refresh themselves
+  refreshRate: 2                # seconds between table refreshes
+  skipLatestRevCheck: true      # no update check on startup
+  ui:
+    skin: one-dark
+    enableMouse: true
+    logoless: true              # more rows for resources
+    reactive: true              # hot-reload config and skin changes
+    defaultsToFullScreen: true  # logs and YAML open full-screen
+  logger:
+    tail: 500                   # lines shown when opening logs
+    buffer: 5000                # lines kept in memory
+    sinceSeconds: 300           # only recent logs (-1 = all)
+    textWrap: false
+    showTime: true

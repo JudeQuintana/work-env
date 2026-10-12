@@ -1,0 +1,53 @@
+plugins:
+  # Multi-pod log tailing with stern (brew install stern).
+  # Uses the k9s filter text as the pod query; falls back to the selected pod's name.
+  stern:
+    shortCut: Shift-L
+    description: Logs (stern)
+    scopes:
+    - pods
+    command: sh
+    background: false
+    confirm: false
+    args:
+    - -c
+    - q="$FILTER"; stern -n $NAMESPACE --context $CONTEXT --tail 50 --timestamps "${q:-$NAME}"
+
+  # Attach a throwaway netshoot debug container to a running container's pod.
+  # Needs ephemeral container permissions and a reachable nicolaka/netshoot image.
+  debug-container:
+    shortCut: Shift-D
+    description: Add debug container (netshoot)
+    scopes:
+    - containers
+    command: kubectl
+    background: false
+    confirm: false
+    args:
+    - debug
+    - -it
+    - -n
+    - $NAMESPACE
+    - --context
+    - $CONTEXT
+    - $POD
+    - --target
+    - $NAME
+    - --image
+    - nicolaka/netshoot:latest
+    - --share-processes
+    - --
+    - bash
+
+  # Copy the selected resource name to the macOS clipboard.
+  copy-name:
+    shortCut: Ctrl-Y
+    description: Copy name
+    scopes:
+    - all
+    command: sh
+    background: true
+    confirm: false
+    args:
+    - -c
+    - echo -n $NAME | pbcopy
