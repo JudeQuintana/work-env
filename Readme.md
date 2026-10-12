@@ -70,6 +70,7 @@ Vim:
        - `git clone https://github.com/kkvh/vim-docker-tools`
        - `git clone https://github.com/Xuyuanp/nerdtree-git-plugin`
        - `git clone https://github.com/mg979/vim-visual-multi.git`
+       - `git clone https://github.com/cue-lang/vim-cue.git`
     - `mv .vim.before ~`
     - `mv .vim.after ~`
 
