@@ -42,7 +42,7 @@ iTerm2:
 
 Via Homebrew
   - install/upgrade:
-      - `brew install tmux git vim the_silver_searcher httpie reattach-to-user-namespace ctags jq htop thefuck tfenv ccat ipcalc hugo`
+      - `brew install tmux git vim the_silver_searcher httpie reattach-to-user-namespace ctags jq htop thefuck tfenv ccat ipcalc hugo libyaml`
 
 Vim:
   - Install janus (https://github.com/carlhuda/janus)
@@ -80,7 +80,16 @@ OhMyZSH `git-open` Plugin:
 rvm (https://rvm.io/)
   - install: `curl -sSL https://get.rvm.io | bash -s stable` and follow
     sourcing instructions at the end
-  - install ruby 3.2.1 `rvm install 3.2.1` and `rvm --default use 3.2.1`
+  - install ruby 3.2.1 `rvm install 3.4.10` and `rvm --default use 3.4.10`
+    - or try the following commands if there are openssl and libyaml errrors
+```
+rvm autolibs disable
+unset LDFLAGS
+unset CPPFLAGS
+unset PKG_CONFIG_PATH
+export RUBY_CONFIGURE_OPTS="--with-openssl-dir=$(brew --prefix openssl@3) --with-libyaml-dir=$(brew --prefix libyaml)"
+rvm reinstall 3.4.10 --disable-binary
+```
   - install tmuxinator: `gem install tmuxinator`
 
 Tmux:
