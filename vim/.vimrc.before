@@ -1,6 +1,8 @@
 let mapleader = ","
 set clipboard=unnamed
 set cursorline
+set mouse=a
+set ttymouse=sgr
 
 if executable("ag")
    set grepprg=ag\ --nogroup\ --nocolor
