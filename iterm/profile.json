@@ -264,9 +264,9 @@
       "Action" : 11,
       "Text" : "0x11 0x6d"
     },
-    "0x6a-0x100000" : {
-      "Action" : 11,
-      "Text" : "0x11 0x6A"
+    "0x7f-0x100000" : {
+      "Text" : "0x15",
+      "Action" : 11
     },
     "0xf702-0x280000" : {
       "Action" : 10,
@@ -296,17 +296,17 @@
       "Action" : 11,
       "Text" : "0x11 0x6B"
     },
-    "0x7c-0x120000" : {
-      "Action" : 11,
-      "Text" : "0x11 0x7c"
-    },
     "0x6f-0x100000" : {
       "Action" : 11,
       "Text" : "0x11 0x6F"
     },
-    "0x7f-0x100000" : {
-      "Text" : "0x15",
-      "Action" : 11
+    "0x7c-0x120000" : {
+      "Action" : 11,
+      "Text" : "0x11 0x7c"
+    },
+    "0x6a-0x100000" : {
+      "Action" : 11,
+      "Text" : "0x11 0x6A"
     },
     "0x7a-0x100000" : {
       "Action" : 11,
@@ -395,8 +395,8 @@
   "Smart Cursor Color" : true,
   "Semantic History" : {
     "editor" : "com.sublimetext.3",
-    "action" : "best editor",
-    "text" : ""
+    "text" : "",
+    "action" : "best editor"
   },
   "Ambiguous Double Width" : false,
   "Blur Radius" : 2,
