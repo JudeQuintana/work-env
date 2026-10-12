@@ -1,8 +1,6 @@
 let mapleader = ","
 set clipboard=unnamed
 set cursorline
-set mouse=a
-set ttymouse=sgr
 
 if executable("ag")
    set grepprg=ag\ --nogroup\ --nocolor
@@ -88,3 +86,15 @@ nnoremap <leader>. :CtrlPTag<cr>
 
 "" Enable mouse
 set mouse=a
+set ttymouse=sgr
+set ttimeoutlen=10
+if exists("+mousescroll")
+  set mousescroll=ver:3,hor:0
+endif
+
+"NERDTree: single-click opens directories
+let NERDTreeMouseMode=2
+
+"reload files changed outside vim (e.g. by claude) when focus returns
+set autoread
+autocmd FocusGained,BufEnter * checktime
