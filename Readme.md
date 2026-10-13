@@ -82,7 +82,7 @@ OhMyZSH `git-open` Plugin:
 rvm (https://rvm.io/)
   - install: `curl -sSL https://get.rvm.io | bash -s stable` and follow
     sourcing instructions at the end
-  - install ruby 3.2.1 `rvm install 3.4.10` and `rvm --default use 3.4.10`
+  - install ruby 3.4.10 `rvm install 3.4.10` and `rvm --default use 3.4.10`
     - or try the following commands if there are openssl and libyaml errrors
 ```
 rvm autolibs disable
