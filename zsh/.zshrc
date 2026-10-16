@@ -101,6 +101,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias vi="vim"
+# crude but needed for brew specific vim
+alias vim="opt/homebrew/bin/vim"
 alias work="~/work"
 alias notes="~/work/notes"
 alias m="tmuxinator hustle"
@@ -112,6 +114,7 @@ alias history="fc -il 1"
 alias s="google"
 alias gmcsg="gcmsg"
 alias gto="git open"
+
 
 # uncomment when the fuck is installed
 #eval $(thefuck --alias)

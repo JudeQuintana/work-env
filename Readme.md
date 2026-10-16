@@ -18,8 +18,8 @@ repo.
 - MacOS:
     - Map Caps Lock Key to Control
       - System Preferences -> Keyboard -> Modifier Keys
-    - install flycut, multi-clipboard for the system, `shift-ctrl-v` +
-      `left` or `right` arrow keys to pick which clipboard to paste
+    - install maccy (see brew install below), multi-clipboard for the system
+      - map open to `shift-ctrl-v`.
     - install Spectacle, to allow for arranging MacOS windows via key
       shortcuts.
 
@@ -42,7 +42,7 @@ iTerm2:
 
 Via Homebrew
   - install/upgrade:
-      - `brew install tmux git vim the_silver_searcher httpie reattach-to-user-namespace ctags jq htop thefuck tfenv ccat ipcalc hugo libyaml`
+      - `brew install tmux git vim the_silver_searcher httpie reattach-to-user-namespace ctags jq htop thefuck tfenv ccat ipcalc hugo libyaml maccy`
 
 Vim:
   - Install janus (https://github.com/carlhuda/janus)

@@ -92,6 +92,20 @@ if exists("+mousescroll")
   set mousescroll=ver:3,hor:0
 endif
 
+" copy mouse selections on release,
+" double click auto copy on release
+" triple click cauto copy whole line on release
+function! s:CopySelection() abort
+  let l:txt = join(getregion(getpos('v'), getpos('.'), #{type: mode()}), "\n")
+  if l:txt !=# '' && l:txt !=# get(s:, 'last_copied', '')
+    let s:last_copied = l:txt
+    normal! ygv
+  endif
+endfunction
+vnoremap <silent> <LeftRelease> <Cmd>call <SID>CopySelection()<CR>
+vnoremap <silent> <2-LeftRelease> <Cmd>call <SID>CopySelection()<CR>
+vnoremap <silent> <3-LeftRelease> <Cmd>call <SID>CopySelection()<CR>
+
 "NERDTree: single-click opens directories
 let NERDTreeMouseMode=2
 
