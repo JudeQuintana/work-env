@@ -47,7 +47,6 @@ let g:go_highlight_fields = 1
 let g:go_highlight_types = 1
 "let g:go_highlight_array_whitespace_error = 1
 "let g:go_highlight_space_tab_error = 1
-let g:go_highlight_build_constraints = 1
 let g:go_highlight_generate_tags = 1
 "let g:go_highlight_chan_whitespace_error = 1
 "let g:go_highlight_extra_types = 1
@@ -88,9 +87,10 @@ nnoremap <leader>. :CtrlPTag<cr>
 set mouse=a
 set ttymouse=sgr
 set ttimeoutlen=10
-if exists("+mousescroll")
-  set mousescroll=ver:3,hor:0
-endif
+
+" ignore horizontal trackpad scroll jitter
+noremap <ScrollWheelLeft>  <Nop>
+noremap <ScrollWheelRight> <Nop>
 
 " copy mouse selections on release,
 " double click auto copy on release
@@ -112,3 +112,14 @@ let NERDTreeMouseMode=2
 "reload files changed outside vim (e.g. by claude) when focus returns
 set autoread
 autocmd FocusGained,BufEnter * checktime
+
+"faster gitgutter and CursorHold updates (default is 4000ms)
+set updatetime=300
+
+"open new splits to the right and below
+set splitright
+set splitbelow
+
+"clear search highlighting
+nnoremap <leader><space> :nohlsearch<CR>
+
