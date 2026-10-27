@@ -20,8 +20,14 @@ repo.
       - System Preferences -> Keyboard -> Modifier Keys
     - install maccy (see brew install below), multi-clipboard for the system
       - map open to `shift-ctrl-v`.
-    - install Spectacle, to allow for arranging MacOS windows via key
-      shortcuts.
+      - Under Preferences:
+        - Appearance:
+          - pop up at: `cursor`
+        - Behavior: check `paste automatically` and `paste without formatting`
+    - install Rectangle (via brew), to allow for arranging MacOS windows via key shortcuts. (disable os window mgmt)
+      - Set left: option+cmd+left-arrow
+      - Set right: option+cmd+right-arrow
+      - Set maximize: option+cmd+m
 
 - Chrome Browser:
     - install Vimium (vim controls for browsing)
@@ -39,10 +45,17 @@ iTerm2:
      - Preferences -> Profile -> Colors
      - import Dracula.itermcolors
      - set Dracula color preset
+  - Settings -> General
+    - Selection:
+      - check `Copy to clipboard on selection`
+    - Pointer:
+      - Bindings:
+        - select and delete: `Right Click: Open Context Menu` (allows to
+          right click in tmux to get tmux menu)
 
 Via Homebrew
   - install/upgrade:
-      - `brew install tmux git vim the_silver_searcher httpie reattach-to-user-namespace ctags jq htop thefuck tfenv ccat ipcalc hugo libyaml maccy`
+      - `brew install tmux git vim the_silver_searcher httpie reattach-to-user-namespace ctags jq htop thefuck tfenv ccat ipcalc hugo libyaml maccy rectangle`
 
 Vim:
   - Install janus (https://github.com/carlhuda/janus)
