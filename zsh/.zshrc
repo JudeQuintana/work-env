@@ -101,8 +101,6 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias vi="vim"
-# crude but needed for brew specific vim
-alias vim="opt/homebrew/bin/vim"
 alias work="~/work"
 alias notes="~/work/notes"
 alias m="tmuxinator hustle"
@@ -150,3 +148,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # path for homebrew installation on M1
 export PATH="/opt/homebrew/bin:$PATH"
+
+export EDITOR='vim'
+# claude path
+export PATH="$HOME/.local/bin:$PATH"
