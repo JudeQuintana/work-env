@@ -9,4 +9,8 @@
 [difftool]
   prompt = false
 [alias]
-    d = difftool
+  d = difftool
+[push]
+  autoSetupRemote = true
+[url "git@github.com:"]
+	insteadOf = https://github.com/
