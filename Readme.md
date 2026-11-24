@@ -55,7 +55,7 @@ iTerm2:
 
 Via Homebrew
   - install/upgrade:
-      - `brew install tmux git vim the_silver_searcher httpie jq htop tfenv ccat ipcalc hugo libyaml maccy rectangle claude kubectl kubectx crossplane`
+      - `brew install tmux git vim the_silver_searcher httpie jq htop tfenv ccat ipcalc openssl libyaml maccy rectangle claude kubectl kubectx crossplane`
 
 Vim:
   - Install janus (https://github.com/carlhuda/janus)
