@@ -66,22 +66,22 @@ Vim:
     - `cd $HOME/.vim/janus/vim/tools/nerdtree && git checkout master && git pull`, fixes issues with latest vim
 
     - `mkdir ~/.janus` and `git clone` these plugin repos in it:
-       - `git clone https://github.com/dracula/vim` Darcula Vim Theme
-       - `git clone https://github.com/vim-airline/vim-airline`
-       - `git clone https://github.com/vim-airline/vim-airline-themes`
-       - `git clone https://github.com/qpkorr/vim-bufkill`
-       - `git clone https://github.com/fatih/vim-go`
-       - `git clone https://github.com/hashivim/vim-terraform`
+       - `git clone https://github.com/dracula/vim.git` Darcula Vim Theme
+       - `git clone https://github.com/vim-airline/vim-airline.git`
+       - `git clone https://github.com/vim-airline/vim-airline-themes.git`
+       - `git clone https://github.com/qpkorr/vim-bufkill.git`
+       - `git clone https://github.com/fatih/vim-go.git`
+       - `git clone https://github.com/hashivim/vim-terraform.git`
        - `git clone https://github.com/yssl/QFEnter.git`
        - `git clone https://github.com/godlygeek/tabular.git`
-       - `git clone https://github.com/tpope/vim-bundler`
+       - `git clone https://github.com/tpope/vim-bundler.git`
        - `git clone https://github.com/tpope/vim-rails.git`
        - `git clone https://github.com/tpope/vim-surround.git`
-       - `git clone https://github.com/tpope/vim-dadbod`
-       - `git clone https://github.com/szw/vim-tags`
-       - `git clone https://github.com/majutsushi/tagbar`
-       - `git clone https://github.com/kkvh/vim-docker-tools`
-       - `git clone https://github.com/Xuyuanp/nerdtree-git-plugin`
+       - `git clone https://github.com/tpope/vim-dadbod.git`
+       - `git clone https://github.com/szw/vim-tags.git`
+       - `git clone https://github.com/majutsushi/tagbar.git`
+       - `git clone https://github.com/kkvh/vim-docker-tools.git`
+       - `git clone https://github.com/Xuyuanp/nerdtree-git-plugin.git`
        - `git clone https://github.com/mg979/vim-visual-multi.git`
        - `git clone https://github.com/cue-lang/vim-cue.git`
     - `mv .vim.before ~`
